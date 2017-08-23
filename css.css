@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    margin: 1em;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -9,6 +10,9 @@ h1 {
 
 #basicDetailsSection {
     display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
 }
 
 #profilePic {
@@ -16,5 +20,32 @@ h1 {
 }
 
 #basicDetails {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     flex-grow: 1;
+}
+
+#basicDetails div {
+    flex-grow: 0;
+}
+
+img {
+    height: 5em;
+    width: 5em;
+    border: 2px solid rgb(72, 12, 174);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+#name {
+    display: flex;
+    flex-grow: 1 !important;
+    align-items: center;
+}
+
+#resumeBody {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
 }
