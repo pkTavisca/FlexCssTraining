@@ -1,0 +1,81 @@
+body {
+    margin: 1em;
+    font-family: sans-serif;
+    background: url(http://images.all-free-download.com/images/graphiclarge/light_abstract_background_6816775.jpg) no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+#basicDetailsSection {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+}
+
+#profilePic {
+    flex-basis: 1em;
+}
+
+#basicDetails {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+#basicDetails div {
+    flex-grow: 0;
+}
+
+img {
+    height: 5em;
+    width: 5em;
+    border: 2px solid rgb(72, 12, 174);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+#name {
+    display: flex;
+    flex-grow: 1 !important;
+    align-items: center;
+}
+
+#resumeBody {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#resumeBody article {
+    margin-top: 10px;
+}
+
+#eduTable {
+    border-collapse: collapse;
+}
+
+#eduTable td {
+    border: 1px solid black;
+}
+
+#experienceTable {
+    border-collapse: collapse;
+}
+
+#experienceTable td {
+    border: 1px solid black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
