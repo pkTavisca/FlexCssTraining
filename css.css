@@ -1,6 +1,8 @@
 body {
     margin: 1em;
     font-family: sans-serif;
+    background: url(http://images.all-free-download.com/images/graphiclarge/light_abstract_background_6816775.jpg) no-repeat;
+    background-size: cover;
 }
 
 h1 {
