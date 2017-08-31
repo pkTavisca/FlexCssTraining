@@ -49,3 +49,31 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+#resumeBody article {
+    margin-top: 10px;
+}
+
+#eduTable {
+    border-collapse: collapse;
+}
+
+#eduTable td {
+    border: 1px solid black;
+}
+
+#experienceTable {
+    border-collapse: collapse;
+}
+
+#experienceTable td {
+    border: 1px solid black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
